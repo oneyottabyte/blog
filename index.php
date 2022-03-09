@@ -2,8 +2,8 @@
 
 require 'config.php';
 
-include 'artigo.php';
-$artigo = new Artigo();
+include 'Artigo.php';
+$artigo = new Artigo($mysql);
 $artigos = $artigo->exibirTodos();
 
 ?>
