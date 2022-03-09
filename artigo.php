@@ -1,3 +1,12 @@
+<?php
+
+require 'config.php';
+require 'src/Artigo.php';
+$obj_artigo = new Artigo($mysql);
+$artigo = $obj_artigo->exibirPorId($_GET['id']);
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -10,10 +19,10 @@
 <body>
     <div id="container">
         <h1>
-             
+           <?php echo $artigo['titulo']; ?>    
         </h1>
         <p>
-        
+           <?php echo $artigo['conteudo']; ?>
         </p>
         <div>
             <a class="botao botao-block" href="index.php">Voltar</a>

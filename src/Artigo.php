@@ -16,4 +16,13 @@ class Artigo
 
         return $artigos;
     }
+
+    public function exibirPorId(string $id) : array
+    {
+        $selecionaArtigo = $this->mysql->prepare("SELECT id, titulo, conteudo FROM artigos WHERE id = ?");
+        $selecionaArtigo->bind_param('s', $id);
+        $selecionaArtigo->execute();
+        $artigo = $selecionaArtigo->get_result()->fetch_assoc();
+        return $artigo;
+    }
 }
