@@ -22,7 +22,7 @@ $artigo = $obj_artigo->exibirPorId($_GET['id']);
            <?php echo $artigo['titulo']; ?>    
         </h1>
         <p>
-           <?php echo $artigo['conteudo']; ?>
+           <?php echo nl2br($artigo['conteudo']); ?>
         </p>
         <div>
             <a class="botao botao-block" href="index.php">Voltar</a>
