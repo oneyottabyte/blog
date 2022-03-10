@@ -1,9 +1,14 @@
 <?php
+
+require '../config.php';
+require '../src/Artigo.php';
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $_POST['titulo'];
-    $_POST['conteudo'];
+    $artigo = new Artigo($mysql);
+    $artigo->adicionar($_POST['titulo'], $_POST['conteudo']);
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
