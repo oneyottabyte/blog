@@ -13,12 +13,18 @@ Projeto web PHP de um Blog (Projeto Frontend)
   Descrição
 </h2>
 
-Projeto visando a prática com a linguagem PHP e os conceitos do paradigma de orientação a objetos. No projeto deste Curso vamos desenvolver um blogue e para construí-lo vamos enfrentar várias dificuldades. 
+Projeto visando a prática com a linguagem PHP. No projeto desevolvi um blog simples que exibe os artigos de forma dinâmica.
 
 ## 🔨 Funcionalidades do projeto
 
-No blog nós podemos nos conectar com banco de dados e inserir dados nele, fazer uma lista de artigos e poder clicar nesses artigos e visualizá-los numa página inteira.
-Podemos também ter uma página administrativa, na qual vamos poder entrar e adicionar um artigo. Também podemos editar um artigo que temos e poderemos ainda excluir um dos artigos que publicamos.
+No blog nós podemos:
+
+- Nos conectar com banco de dados e inserir dados nele.
+- Fazer uma lista de artigos e poder clicar nesses artigos e visualizá-los numa página inteira.
+- Podemos também ter uma página administrativa.
+- Adicionar um artigo. 
+- Editar um artigo.
+- Excluir um dos artigos que publicamos.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
@@ -26,6 +32,8 @@ Podemos também ter uma página administrativa, na qual vamos poder entrar e adi
 - `CSS`
 - `PHP`
 - `XAMPP`
+- `Apache`
+- `MySQL`
 
 <h1 id="desenvolvedor">
 <img height="30" src="https://img.icons8.com/color/48/000000/devpost.png"/>
