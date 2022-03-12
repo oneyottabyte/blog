@@ -1,8 +1,6 @@
 # blog
 Projeto web PHP de um Blog
 
-Tudo bem? Sejam bem-vindos nesse curso vamos aprender como construir um site com PHP. 
-Vamos dar os nossos primeiros passos no desenvolvimento web. 
 No projeto deste Curso vamos desenvolver um blogue e para construí-lo vamos enfrentar várias dificuldades.
 Dificuldades que temos no desenvolvimento web, como conectar com banco de dados e inserir dados nele, 
 vamos fazer uma lista de artigos e vamos poder clicar nesses artigos e visualizá-los numa página inteira.
