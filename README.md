@@ -35,10 +35,10 @@ No blog nós podemos:
 - `Apache`
 - `MySQL`
 
-<h1 id="desenvolvedor">
+<h2 id="desenvolvedor">
 <img height="30" src="https://img.icons8.com/color/48/000000/devpost.png"/>
   Desenvolvedor
-</h1>
+</h2>
 
 <table align="center">
   <tr>
